@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./style.css" />
+
+		<!-- fontawesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Custom Javascipt -->
+		<script src="./script.js" defer></script>
+
+		<title>TIINEC.com</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="navbar-container">
+					<div class="logo">
+						<img src="./assests/images/logo-mono.png" alt="Tiinec" />
+						<div class="logo-text">
+							<div class="logo-title">Tiinec</div>
+							<div class="tagline">Let's Innovate Future</div>
+						</div>
+					</div>
+					<nav class="navbar">
+						<ul data-visible="false">
+							<li>
+								<a href="./index.html#home">Home</a>
+							</li>
+							<li><a href="./index.html#about">About us</a></li>
+							<li><a href="./index.html#services">Services</a></li>
+							<li><a href="./index.html#clients">Clients</a></li>
+							<li><a href="./index.html#partners">Partners</a></li>
+							<li><a class="active" href="./contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<button class="hamburger-menu" data-expanded="false"></button>
+
+		<section class="feedback padding-section">
+			<div class="container">
+				<div class="title dbhl">Contact Us</div>
+				<div class="feedback-content">
+					<form action="mailto:amanverma0428@gmail.com" enctype="text/plain">
+						<div class="input-field">
+							<label for="name">Full Name <span>*</span></label>
+							<input
+								type="text"
+								name="name"
+								id="name"
+								placeholder="Type your full name"
+								required
+							/>
+						</div>
+						<div class="input-field">
+							<label for="email">Email <span>*</span> </label>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="example@gmail.com"
+								inputmode="email"
+								required
+							/>
+						</div>
+						<div class="input-field">
+							<label for="contact">Contact No.</label>
+							<input
+								type="text"
+								name="phone"
+								id="contact"
+								placeholder="+91 XXX XXX XXXX"
+								inputmode="numeric"
+							/>
+						</div>
+						<div class="text-field">
+							<label for="message">Message</label>
+							<textarea
+								name="message"
+								id="message"
+								placeholder="Type your message"
+							></textarea>
+						</div>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact padding-section">
+			<div class="container">
+				<div class="contact-container text-justify hidden">
+					<div class="contact-content">
+						<div class="title dbhl">gratitude</div>
+						<div class="desc contact-desc">
+							<p>
+								Thank you for your interest in the Innovative Institute for Natural
+								Resources, Environment and Community (TIINEC). We welcome the
+								opportunity to connect with you.
+							</p>
+							<p>
+								If you have any questions about our services, research, or partnerships,
+								please don't hesitate to reach out to us. Our team of expert researchers
+								and staff is available to answer your questions and provide you with the
+								information you need to make informed decisions about how we can work
+								together.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer padding-section">
+			<div class="container">
+				<div class="footer-content text-justify">
+					<div class="footer-about">
+						<div class="logo">
+							<img src="./assests/images/FooterLogo.png" alt="Tiinec" />
+						</div>
+					</div>
+					<div>
+						<div class="footer-desc">
+							<span class="highlight">TIINEC</span> is a leading research group that
+							focuses on promoting sustainable development, environmental stewardship,
+							and community empowerment. Our team of expert researchers is dedicated to
+							addressing the complex challenges facing our world today, and we strive
+							to provide innovative solutions that are both scientifically sound and
+							socially just.
+						</div>
+					</div>
+
+					<div class="footer-address">
+						<div class="address-title">Address</div>
+						<div class="address">
+							Innovative Institute for Natural Resources, Environment and Community
+							(TIINEC) 46, Priyadarshini Vihar, Part-1, Bhama Shah Marg
+						</div>
+						<div class="phone">
+							<a href="tel:+91 9015530757">Phone : +91 9015530757</a>
+						</div>
+						<div class="email">
+							<a href="mailto:info@tiinec.com">Email: info@tiinec.com </a>
+						</div>
+						<div class="social-media">
+							<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+							<a style="margin: 0 1rem" href=""
+								><i class="fa-brands fa-twitter"></i
+							></a>
+							<a href=""><i class="fa-brands fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">©️ copyrights are reserved.</div>
+			</div>
+		</footer>
+	</body>
+</html>
